@@ -48,3 +48,50 @@ button {
     margin-left: 100px;
     margin-top: 50px;
 }
+
+main {
+    display: flex;
+    padding: 5% 100px;
+    flex-direction: column;
+}
+
+.blog-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 30px grey;
+
+}
+
+.words {
+    width: 50%;
+    padding: 30px;
+}
+
+.words p {
+    color: grey;
+}
+
+.image {
+
+    height: 320px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.one {
+    background-image: url(/media/zac-durant-_6HzPU9Hyfg-unsplash.jpg);
+}
+
+.two {
+    background-image: url(/media/mohd-danish-hussain-rm7eNpq6c8s-unsplash.jpg);
+}
+
+.blog-2 {
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 30px grey;
+}
