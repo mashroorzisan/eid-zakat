@@ -15,7 +15,7 @@ header {
     background-size: cover;
     background-image:
         linear-gradient(to right, rgba(0, 0, 0, 0.973), rgba(255, 255, 255, 0)),
-        url('/media/cowhut.jpg');
+        url('./media/cowhut.jpg');
 }
 
 header h1 {
